@@ -1,0 +1,9 @@
+{
+  "name": "web-app-course-project-travel-agency",
+  "version": "1.0.0",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  }
+}
