@@ -19,5 +19,9 @@
 @import 'modules/_row';
 /*generic content*/
 @import 'modules/_generic-content-container';
+/*section title*/
+@import 'modules/_section-title';
+/*feature item*/
+@import 'modules/_feature-item';
 
 
