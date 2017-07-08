@@ -18,4 +18,20 @@
 			margin-bottom: 3.875rem;
 		}
 	}
+	&--no-padding-until-md {
+		padding-left: 0;
+		padding-right: 0;
+		@mixin md {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	}
+	&--no-padding-until-lg {
+		padding-left: 0;
+		padding-right: 0;
+		@mixin lg {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	}
 }
