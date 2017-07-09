@@ -33,4 +33,6 @@
 @import 'modules/_site-header';
 /*navbar*/
 @import 'modules/_primary-nav';
+/*reveal*/
+@import 'modules/_reveal-item';
 
