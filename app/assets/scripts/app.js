@@ -4,4 +4,4 @@ import $ from 'jquery';
 
 let mobileMenu = new MobileMenu();
 new RevealOnScroll($('.feature-item'), "70%");
-new RevealOnScroll($('.testimonial'), "60%");
+new RevealOnScroll($('.testimonial'), "70%");
