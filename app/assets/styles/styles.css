@@ -29,4 +29,8 @@
 @import 'modules/_sprite';
 /*footer*/
 @import 'modules/_site-footer';
+/*header*/
+@import 'modules/_site-header';
+/*navbar*/
+@import 'modules/_primary-nav';
 

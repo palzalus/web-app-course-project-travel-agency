@@ -11,16 +11,29 @@
   <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
 </head>
 <body>
-  <header>
-    <img src="assets/images/icons/clear-view-escapes.svg" alt="beach view">
-    <a href="#" class="btn">Get in Touch</a>
-    <nav>
-      <ul>
-        <li><a href="#our-beginning">Our Beginning</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo">
+          <div class="icon icon--clear-view-escapes site-header__logo__graphic">Clier View Escapes</div>
+      </div>
+      
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+          <a href="#" class="btn">Get in Touch</a>
+        </div>
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="#our-beginning">Our Beginning</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <!-- large hero block -->
@@ -115,7 +128,7 @@
         <div class="row__lg-4">
           <div class="testimonial">
             <div class="testimonial__image">
-                <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonials-jane-hi-dpi.jpg 320w" alt="jane doe">
+                <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="jane doe">
             </div>
             <h3 class="testimonial__title">Jane Doe</h3>
             <h4 class="testimonial__subtitle">9 Time Escaper</h4>
@@ -151,5 +164,6 @@
       <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved. </span><a href="#" class="btn btn--orange">Get in Touch</a></p>      
     </div>
   </footer>
+  <script type="text/javascript" src="/temp/scripts/app.js"></script>
 </body>
 </html>

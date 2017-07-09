@@ -1,0 +1,116 @@
+.site-header {
+	padding: 10px 0;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	transition: background-color .3s ease-out;
+	&--show {
+		background-color: rgba($mainBlue, .55);
+	}
+	@mixin md {
+		background-color: rgba($mainBlue, 0.3);
+	}
+	&__btn-container {
+
+		@mixin md {
+			float: right;
+		}
+	}
+	&__logo {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%) scale(.8);
+		transform-origin: 50% 0;
+		background-color: $mainBlue;
+		padding: 25px 36px;
+		@mixin md {
+			left: auto;
+			transform: translateX(0);
+		}
+	}
+	&__logo__graphic {
+		text-indent: -99999px;
+	}
+	&__menu-content {
+		text-align: center;
+		opacity: 0;
+		transform: scale(1.2);
+		z-index: -10;
+		position: relative;
+		padding-top: 90px;
+		transition: all .3s ease-out;
+		@mixin md {
+			opacity: 1;
+			z-index: 1;
+			padding-top: 0;
+			transform: scale(1);
+		}
+		&--show {
+			opacity: 1;
+			z-index: 1;
+			transform: scale(1);
+		}
+	}
+	&__menu-icon {
+		width: 20px;
+		height: 19px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		z-index: 10;
+		&::before {
+			content: "";
+			position: absolute;
+			transform-origin: 0 0;
+			top: 0;
+			left: 0;
+			width: 20px;
+			height: 3px;
+			background-color: #fff;
+			transition: transform .3s ease-out;
+		}
+		&__middle {
+			position: absolute;
+			top: 8px;
+			left: 0;
+			width: 20px;
+			height: 3px;
+			background-color: #fff;
+			transform-origin: 0 50%;
+			transition: all .3s ease-out;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 20px;
+			height: 3px;
+			background-color: #fff;
+			transform-origin: 0 100%;
+			transition: transform .3s ease-out;
+		}
+		@mixin md {
+			display: none;
+		}
+	}
+	&__menu-icon--close-x {
+		&::before {
+			content: "";
+			transform: rotate(45deg) scaleX(1.25);
+		}
+		&::after {
+			content: "";
+			transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+		}
+		.site-header__menu-icon__middle {
+			opacity: 0;
+			width: 0;
+		}
+	}
+}
+
+
+
+
