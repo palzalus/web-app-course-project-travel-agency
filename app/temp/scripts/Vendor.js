@@ -63,11 +63,6 @@
 /******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
-<<<<<<< HEAD
-/******/ ({
-
-/***/ 8:
-=======
 /******/ ([
 /* 0 */,
 /* 1 */,
@@ -78,7 +73,6 @@
 /* 6 */,
 /* 7 */,
 /* 8 */
->>>>>>> svg-to-png
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -86,18 +80,12 @@
 
 __webpack_require__(9);
 
-<<<<<<< HEAD
-/***/ }),
-
-/***/ 9:
-=======
 __webpack_require__(10);
 
 __webpack_require__(11);
 
 /***/ }),
 /* 9 */
->>>>>>> svg-to-png
 /***/ (function(module, exports) {
 
 (function(window, factory) {
@@ -798,11 +786,6 @@ __webpack_require__(11);
 ));
 
 
-<<<<<<< HEAD
-/***/ })
-
-/******/ });
-=======
 /***/ }),
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -2633,4 +2616,3 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 /***/ })
 /******/ ]);
->>>>>>> svg-to-png

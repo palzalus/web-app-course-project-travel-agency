@@ -16,11 +16,7 @@ class StickyHeader {
 	}
 
 	refreshWaypoints() {
-<<<<<<< HEAD
 		this.lazyImages.load(function() {
-=======
-		this.lazyImages.on('load', function() {
->>>>>>> svg-to-png
 			Waypoint.refreshAll();
 		});
 	}
