@@ -35,4 +35,9 @@
 @import 'modules/_primary-nav';
 /*reveal*/
 @import 'modules/_reveal-item';
+/*modal*/
+@import 'modules/_modal';
+/*social icons*/
+@import 'modules/_social-icons';
+
 
