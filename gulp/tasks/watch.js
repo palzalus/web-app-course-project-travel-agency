@@ -28,7 +28,7 @@ gulp.task('cssInject', ['css'] ,function() {
 		.pipe(browserSync.stream());
 });
 
-gulp.task('scripts', function(callback) {
+gulp.task('scripts',['modernizr'], function(callback) {
 	webpack(require('../../webpack.config.js'), function(err, stats) {
 		if(err) {
 			console.log(err.toString());
