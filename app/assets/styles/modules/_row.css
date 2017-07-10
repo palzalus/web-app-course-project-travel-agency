@@ -74,7 +74,7 @@
 		padding-top: 80px;
 	}
 	/*begin equal height rules*/
-	&--equal-height-at-md {
+	.flexbox &--equal-height-at-md {
 		@mixin md {
 			display: flex;
 		}
@@ -83,7 +83,7 @@
 			display: flex;
 		}
 	}
-	&--equal-height-at-lg {
+	.flexbox &--equal-height-at-lg {
 		@mixin lg {
 			display: flex;
 		}
