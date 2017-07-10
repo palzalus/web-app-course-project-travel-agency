@@ -861,14 +861,14 @@ a {
 
 @media (min-width: 800px) {
 
-.flexbox .row--equal-height-at-md {
+.row--equal-height-at-md {
 			display: -webkit-box;
 			display: -ms-flexbox;
 			display: flex
 	}
 	}
 
-.flexbox .row--equal-height-at-md > div {
+.row--equal-height-at-md > div {
 			float: none;
 			display: -webkit-box;
 			display: -ms-flexbox;
@@ -877,14 +877,14 @@ a {
 
 @media (min-width: 1010px) {
 
-.flexbox .row--equal-height-at-lg {
+.row--equal-height-at-lg {
 			display: -webkit-box;
 			display: -ms-flexbox;
 			display: flex
 	}
 	}
 
-.flexbox .row--equal-height-at-lg > div {
+.row--equal-height-at-lg > div {
 			float: none;
 			display: -webkit-box;
 			display: -ms-flexbox;
